@@ -1,0 +1,54 @@
+
+.icon-status {
+  color: #f7f7f7;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.completed .icon-status {
+  color: #3d9269;
+  cursor: default;
+}
+
+.icon-delete {
+  color: #d15239;
+  
+  margin-left: 15px;
+  
+  visibility:hidden;
+  cursor: pointer;
+}
+
+.icon-delete:hover {
+    color: red;
+}
+
+li:hover .icon-delete {
+    visibility: visible;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#new-todo {
+    width: 250px;
+    height: 30px;
+}
+
+.statistic {
+    color: #5f5f5f;
+}
+
+#completed-cnt {
+    margin-right: 5px;
+    color: #8aff8a;
+}
